@@ -1,11 +1,11 @@
 <?php 
 session_start();
 $host = null;
-$user = "root";
-$password = "password";
-$database = "allcourse";
+$user = "";
+$password = "";
+$database = "";
 $port = null;
-$socket = "/cloudsql/muict-online-course-evaluation:asia-southeast1:myinstance";
+$socket = "";
 $conn = new mysqli($host, $user, $password, $database, $port, $socket);
 if(mysqli_connect_error()){
   echo mysqli_connect_error();
